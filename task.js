@@ -20,7 +20,7 @@ if (!fs.existsSync(currentWorkingDirectory + "completed.txt")) {
   createStream.end();
 }
 
-// in above code(line 14,20) , we create a todo.txt and done.txt file if they does not exist
+// in above code(line 14,20) , we create a task.txt and completed.txt file if they does not exist
 
 function helpAndInfo() {
   const info = `Usage :-
